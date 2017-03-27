@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="497.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="discussionforum.searchController">
+   <children>
+      <Label fx:id="showid" layoutX="51.0" layoutY="26.0" text="Label" />
+      <Label fx:id="showtag" layoutX="174.0" layoutY="26.0" text="Label" />
+      <Label fx:id="showque" alignment="TOP_LEFT" layoutX="14.0" layoutY="81.0" prefHeight="85.0" prefWidth="580.0" text="Label" />
+      <ScrollBar layoutX="584.0" layoutY="1.0" orientation="VERTICAL" prefHeight="497.0" prefWidth="15.0" />
+      <Label layoutX="17.0" layoutY="26.0" prefHeight="20.0" prefWidth="23.0" text="Id:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="26.0" text="Tag:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="55.0" text="Question:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="168.0" text="Answer:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="229.0" layoutY="26.0" text="Author:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showauth" layoutX="286.0" layoutY="28.0" text="Label" />
+      <Label layoutX="346.0" layoutY="26.0" text="Date:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showdate" layoutX="389.0" layoutY="28.0" text="Label" />
+      <Label fx:id="showans" alignment="TOP_LEFT" layoutX="7.0" layoutY="195.0" prefHeight="294.0" prefWidth="568.0" text="Label" />
+   </children>
+</AnchorPane>

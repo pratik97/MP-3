@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="495.0" prefWidth="652.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="discussionforum.addAnswerControl">
+   <children>
+      <TextArea fx:id="ansfield" layoutX="23.0" layoutY="197.0" prefHeight="230.0" prefWidth="584.0" />
+      <Label fx:id="qlab" alignment="TOP_LEFT" layoutX="20.0" layoutY="23.0" prefHeight="128.0" prefWidth="613.0" text="adf">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="answer" layoutX="525.0" layoutY="445.0" mnemonicParsing="false" onAction="#answer" prefHeight="25.0" prefWidth="81.0" text="Answer!" />
+   </children>
+</AnchorPane>
